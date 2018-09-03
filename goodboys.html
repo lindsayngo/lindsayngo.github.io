@@ -19,7 +19,7 @@
     .picbackground{
       background-image: url("DSC05766.JPG");
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
       margin: 1em auto;
       padding-bottom: 1em;
     }
@@ -38,9 +38,13 @@
     
     .column img{
       margin-top: 8px;
-      vertical-align: middle;
     }
     
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
   </style>
     
 
