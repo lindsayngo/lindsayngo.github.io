@@ -42,6 +42,24 @@
         padding: 5px;
     }
     
+    #container {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  min-width: 600px;
+}
+#container div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
   </style>
     
 
@@ -57,7 +75,13 @@
               GOODBOYS
           </div> 
        
-       
+       <div id="container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
           <div class = "plants">
               <img src = "IMG_20180312_174158.jpg">
               <img src = "IMG_20180312_174250.jpg">
