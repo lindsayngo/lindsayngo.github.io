@@ -40,10 +40,10 @@
         padding: 5px;
     }
 
-    a:hover + .txt{
-	   display: block;
-	}
-  
+    	.hover_img a { position:relative; }
+	.hover_img a span { position:absolute; display:none; z-index:99; }
+	.hover_img a:hover span { display:block; }
+
   </style>
     
 
@@ -62,8 +62,9 @@
 
 
        <div class = "plants">
-     
-	       <a> <img src = "IMG_20180312_174158.jpg"> </a> <div class = "txt"> text </div>
+     		
+	       <div class = "hover_img">
+		       <a href = "#">Show Image<span> <img src = "IMG_20180312_174158.jpg" alt = "image"> /></span></a>
 	       
               <img src = "IMG_20180312_174250.jpg">
               <img src = "feet1.jpg">
