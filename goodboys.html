@@ -39,49 +39,26 @@
         display:inline-block;
         padding: 5px;
     }
+	
+	
+	.text{
+		width: 340px;
+		height: 217px;
+		background: #FFF;
+		opacity:0;
+	}
+	.pic:hover .txt{
+		opacity:0.6;
+		text-align:justify;
+		color:#000000;
+		font-size:20px;
+		font-weight:700;
+		font-family:"Times New Roman", Times, serif;
+		padding:30px;
+	}
+		
+		
     
-    
-    .hvrbox * {
-	box-sizing: border-box;
-}
-
-
-.hvrbox .hvrbox-layer_bottom {
-	display: block;
-}
-.hvrbox .hvrbox-layer_top {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-	color: #fff;
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
-}
-.hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 18px;
-	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
   
   </style>
     
@@ -102,14 +79,13 @@
 
        <div class = "plants">
            
-           <div class="hvrbox">
-              <img src = "IMG_20180312_174158.jpg" alt = "plant1" class="hvrbox-layer_bottom">
-           <div class="hvrbox-layer_top">
-               <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
-	       </div>
-           
-           
-           
+	<div class = "pic">
+              <img src = "IMG_20180312_174158.jpg" alt = "plant1">
+		<div class = "text"> 
+			Hello
+		</div>
+	</div>
+	       
               <img src = "IMG_20180312_174250.jpg">
               <img src = "feet1.jpg">
               <img src = "feet2.jpg">
