@@ -39,11 +39,37 @@
         display:inline-block;
         padding: 5px;
     }
+	
+	.img_wrap{
+		height: 398px;
+		width: 304px;
+		display:inline-block;
+		padding: 5px;
+	}
+	
+	.img_description{
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: rgba(29, 106, 154, 0.72);
+	  color: #fff;
+	  visibility: hidden;
+	  opacity: 0;
 
-    	.hover_img a { position:relative; }
-	.hover_img a span { position:absolute; display:none; z-index:99; }
-	.hover_img a:hover span { display:block; }
+	  /* transition effect. not necessary */
+	  /* transition: opacity .2s, visibility .2s; */
+	}
+	
+	.img_wrap:hover .img_description{
+		visibility: visible;
+		opacity: 1;
+	}
+	
+	
 
+ 
   </style>
     
 
@@ -63,8 +89,10 @@
 
        <div class = "plants">
      		
-	       <div class = "hover_img">
-		       <a href = "#">Show Image<span> <img src = "IMG_20180312_174158.jpg" alt = "image"> /></span></a>
+	       <div class = "img_wrap">
+		       <img src = "IMG_20180312_174158.jpg"> 
+		       <p class = "img_description"> image </p>
+	       </div>
 	       
               <img src = "IMG_20180312_174250.jpg">
               <img src = "feet1.jpg">
