@@ -29,8 +29,6 @@ th{
     font-size: 20px;
 }
 
-
-
 /* HEADER: PLANTILY/my plant family/add a plant */
 .headerbar{
     margin: 30px;
@@ -49,9 +47,7 @@ th{
 #plantily{
     font-size: 60px;
 }
-#plantily a{
-    color: #C57B57;
-}
+
 #ily{
     color: rgba(66, 136, 78, 0.979);
     display:inline;
@@ -66,10 +62,6 @@ th{
 }
 #therest a:visited{
     color: rgba(30, 88, 40, 0.979);
-}
-
-#calendar{
-    
 }
 
 /* AREA BELOW HEADER = DIV.PLANTS */
@@ -103,129 +95,3 @@ th{
 }
 
 
-
-/* ADD A PLANT FORM */
-.addform{
-    margin: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-color: rgb(199, 238, 173);
-    margin-bottom: 0px;
-}
-
-
-/* PLANT DETAILS*/
-.detform{
-    padding-top: 15px;
-    padding-left: 26px;
-    padding-right: 26px;
-    background-color: white;
-    margin-bottom: 0px;
-    display: inline-block;
-}
-.detform #plantname{
-    font-size: 20px;
-}
-#profilepicdet{
-    margin-bottom: 56px;
-    padding-top: 15px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-}
-#editaplant{
-    width: 23px;
-    height: 25px;
-    font-size: 8px;
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-}
-.editplantform{
-    padding: 0px;
-    margin: 0px;
-}
-.pencil{
-    display: block;
-}
-th#pencilbtn{
-    padding-left: 170px;
-    text-align: right;
-    vertical-align: top;
-}
-th#roygenald{
-    text-align: left;
-    height: 50px;
-    vertical-align: bottom;
-}
-table{
-    padding: 0px;
-}
-tr{
-    padding: 50px;
-}
-
-
-/* EDIT PLANT DETAILS PAGE */
-.enter_name{
-    height: 20px;
-    font-size: 16px;
-    width: 279px;
-}
-.enter_vibe{
-    height: 18px;
-    font-size: 16px;
-    width: 120px;
-}
-.enter{
-    height: 20px;
-    font-size: 16px;
-    width: 120px;
-}
-#submitedit{
-    display: inline-block;
-}
-#choosefilebtn{
-    display:inline-block;
-    width: 105px;
-    font-size: 16px;
-    margin-left: 0px;
-}
-#submiteditbtn{
-    display:inline-block;
-    width: 54px;
-    margin-left: 120px;
-    font-size: 16px;
-    /* background-color:  rgb(218, 247, 199); */
-}
-#profilepic{
-    padding-top: 15px;
-    display: block;
-    margin-left: 15%;
-}
-span {
-    padding-right: 6px;
-    padding-left: 6px;
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
-    border: 0.5px solid rgba(185, 185, 185, 0.726);
-    font-weight: 550;
-  }
-
-/* LOGIN/REGISTER FORM */
-.loginreg{
-    margin: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-color:rgb(199, 238, 173);
-    margin-bottom: 0px;
-}
-
-
-#user{
-    color: rgb(250, 255, 173);
-}
