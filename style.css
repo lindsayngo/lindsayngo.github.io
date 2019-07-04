@@ -1,0 +1,231 @@
+body{
+    font-family: "M PLUS 1p", sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(30, 88, 40, 0.979);
+}
+a:visited{
+    color: rgba(30, 88, 40, 0.979);
+}
+a:hover{
+    color: rgb(250, 255, 173);
+}
+img{
+    width: 188px;
+    height: 250px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+}
+
+th{
+    font-size: 20px;
+}
+
+
+
+/* HEADER: PLANTILY/my plant family/add a plant */
+.headerbar{
+    margin: 30px;
+    background-color: rgb(199, 238, 173);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 12px;
+    color: #C57B57;
+}
+.header{
+    display: inline-block;
+    padding-right: 40px;
+    color: #C57B57;
+}
+#plantily{
+    font-size: 60px;
+}
+#plantily a{
+    color: #C57B57;
+}
+#ily{
+    color: rgba(66, 136, 78, 0.979);
+    display:inline;
+}
+#therest{
+    font-size: 16px;
+    padding-top: 6px;
+    color: rgba(30, 88, 40, 0.979);
+}
+#therest a:hover{
+    color: rgb(250, 255, 173) !important;
+}
+#therest a:visited{
+    color: rgba(30, 88, 40, 0.979);
+}
+
+#calendar{
+    
+}
+
+/* AREA BELOW HEADER = DIV.PLANTS */
+.plants{
+    margin: 30px;
+    padding: 34px;
+    background-color: rgb(199, 238, 173);
+}
+.plants a{
+    color: rgba(30, 88, 40, 0.979);
+}
+.plants a:hover{
+    font-weight: 800;
+ }
+
+
+/* HOME PAGE: DISPLAY ALL PLANTS IN PLANTILY */
+.eachplant{
+    display: inline-block;    
+    margin: 34px;
+    padding: 10px;
+    background-color: white;
+}
+.slug{
+    text-align: center;
+    margin-top: 7px;
+    padding: 8px;
+ }
+ .propic img{
+    padding-top: 9px;
+}
+
+
+
+/* ADD A PLANT FORM */
+.addform{
+    margin: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(199, 238, 173);
+    margin-bottom: 0px;
+}
+
+
+/* PLANT DETAILS*/
+.detform{
+    padding-top: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: white;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.detform #plantname{
+    font-size: 20px;
+}
+#profilepicdet{
+    margin-bottom: 56px;
+    padding-top: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+#editaplant{
+    width: 23px;
+    height: 25px;
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.editplantform{
+    padding: 0px;
+    margin: 0px;
+}
+.pencil{
+    display: block;
+}
+th#pencilbtn{
+    padding-left: 170px;
+    text-align: right;
+    vertical-align: top;
+}
+th#roygenald{
+    text-align: left;
+    height: 50px;
+    vertical-align: bottom;
+}
+table{
+    padding: 0px;
+}
+tr{
+    padding: 50px;
+}
+
+
+/* EDIT PLANT DETAILS PAGE */
+.enter_name{
+    height: 20px;
+    font-size: 16px;
+    width: 279px;
+}
+.enter_vibe{
+    height: 18px;
+    font-size: 16px;
+    width: 120px;
+}
+.enter{
+    height: 20px;
+    font-size: 16px;
+    width: 120px;
+}
+#submitedit{
+    display: inline-block;
+}
+#choosefilebtn{
+    display:inline-block;
+    width: 105px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+#submiteditbtn{
+    display:inline-block;
+    width: 54px;
+    margin-left: 120px;
+    font-size: 16px;
+    /* background-color:  rgb(218, 247, 199); */
+}
+#profilepic{
+    padding-top: 15px;
+    display: block;
+    margin-left: 15%;
+}
+span {
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border: 0.5px solid rgba(185, 185, 185, 0.726);
+    font-weight: 550;
+  }
+
+/* LOGIN/REGISTER FORM */
+.loginreg{
+    margin: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color:rgb(199, 238, 173);
+    margin-bottom: 0px;
+}
+
+
+#user{
+    color: rgb(250, 255, 173);
+}
