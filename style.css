@@ -30,6 +30,28 @@ th{
 }
 
 /* HEADER: PLANTILY/my plant family/add a plant */
+.leftside{
+    display: inline-block;
+    width: 84%;
+}
+.rightside{
+    display: inline-block;
+    width: 12%;
+    height: 467px;
+    position: absolute;
+    background-color: rgb(199, 238, 173);
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#rightsidelinks{
+    padding: 5px;
+}
+.link{
+    padding: 10px;
+    margin: 5px;
+}
+
 .headerbar{
     margin: 30px;
     background-color: rgb(199, 238, 173);
@@ -66,6 +88,7 @@ th{
 
 /* AREA BELOW HEADER = DIV.PLANTS */
 .plants{
+    color: rgba(30, 88, 40, 0.979);
     margin: 30px;
     padding: 34px;
     background-color: rgb(199, 238, 173);
@@ -74,24 +97,17 @@ th{
     color: rgba(30, 88, 40, 0.979);
 }
 .plants a:hover{
-    font-weight: 800;
+    font-weight: 1000;
  }
-
-
-/* HOME PAGE: DISPLAY ALL PLANTS IN PLANTILY */
-.eachplant{
-    display: inline-block;    
-    margin: 34px;
-    padding: 10px;
-    background-color: white;
-}
-.slug{
-    text-align: center;
-    margin-top: 7px;
-    padding: 8px;
+ #aboutme{
+    
  }
- .propic img{
-    padding-top: 9px;
+#experience{
+    display: inline-block;
+    margin-right: 10px;
 }
 
-
+#projects{
+    display: inline-block;
+    margin-left: 10px;
+}
