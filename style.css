@@ -43,7 +43,7 @@ th{
 .leftside{
     /* display: inline-block;
     width: 84%; */
-    background-image: url("pic.JPG");
+    background-image: url("DSC05766.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 50%;
@@ -58,7 +58,7 @@ th{
     width: 80%;
 }
 .rightside{
-    background-image: url("pic.JPG");
+    background-image: url("DSC05766.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -93,7 +93,7 @@ th{
     padding-bottom: 25px;
     padding-top: 12px;
 
-    background-image: url("pic.JPG");
+    background-image: url("DSC05766.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
