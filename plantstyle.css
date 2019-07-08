@@ -1,13 +1,8 @@
 
     body {
         font-family: "M PLUS 1p", sans-serif;
-        margin: 30px;
     } 
-    
-    div{
-        margin: 20px;  
-    }
-    
+
     .introduction{
       padding-top: 1.5em;
       font-size: 35px;
