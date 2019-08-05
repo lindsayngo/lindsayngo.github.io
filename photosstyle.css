@@ -41,37 +41,7 @@
 	.image{
 		display: block;
 		height: 398px;
-        	width: 304px;
+        	width: 590px;
 	}
 	
-	.overlay{
-		
-		  position: absolute;
-		  top: 83%;
-		  bottom: 0;
-		  left: 0;
-		  right: 0;
-		  height: 12%;
-		  width: 100%;
-		  margin: 0;
-		  opacity: 0;
-		  transition: .5s ease;
-		  background-color: white;
-	}
 	
-.plant_container:hover .overlay {
-  opacity: 0.75;
-}
-.text {
-  color: black;
-  margin: 0;
-  font-size: 20px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  
-}	
